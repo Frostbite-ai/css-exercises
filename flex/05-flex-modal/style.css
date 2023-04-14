@@ -13,12 +13,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
+  display: flex;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
@@ -29,8 +31,10 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  margin: 10px;
   border-radius: 50%;
   display: flex;
+  flex: none;
   align-items: center;
   justify-content: center;
 }
@@ -44,6 +48,7 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
+  
   align-items: center;
   justify-content: center;
 }
@@ -63,4 +68,22 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin: 10px 0;
+}
+
+
+
+.container
+{
+  display: block;
+}
+
+
+
+.smaller
+{
+  display: flex;
+  padding: 10px 10px 0 0;
+  justify-content:space-between;
+  font-weight: bold;
 }
